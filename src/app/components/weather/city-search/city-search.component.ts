@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { GetCityService } from '../../../services/get-city.service'
 
 @Component({
@@ -8,18 +8,25 @@ import { GetCityService } from '../../../services/get-city.service'
 })
 export class CitySearchComponent implements OnInit {
 
-  city : string;
-  searchedCity : any;
-
+  @Output() success = new EventEmitter<any>();
+  public city : string;
+  public searchedCity : any;
 
   constructor(private getCityService : GetCityService) { }
 
   ngOnInit() {
   }
 
-  getCity(city : string){
-    this.getCityService.getWeather(city).subscribe((res) =>
-  this.searchedCity = res);
+  getCity(city : string) {
+    
+    this.getCityService.getWeather(city).subscribe((res) =>{
+    this.searchedCity = res;
+    this.success.emit({
+      'searchedCity': this.searchedCity
+    });
+    }, (error) =>{
+
+    })
   }
 
 }

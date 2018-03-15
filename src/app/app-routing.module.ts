@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CitySearchComponent } from './components/weather/city-search/city-search.component';
+import { WeatherComponent } from './components/weather/weather.component';
 
 const routes : Routes = [
-  { path : 'search', component : CitySearchComponent },
+  { path : 'search', component : WeatherComponent },
   { path : '', redirectTo : '/search', pathMatch : 'full'}
 ];
 

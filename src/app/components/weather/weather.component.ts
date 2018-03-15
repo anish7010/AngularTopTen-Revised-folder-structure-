@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WeatherComponent implements OnInit {
 
+  public city: any;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  setCity(event) {
+    this.city = event.searchedCity;
   }
 
 }

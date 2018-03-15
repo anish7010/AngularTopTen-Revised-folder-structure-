@@ -1,1 +1,2 @@
-<router-outlet></router-outlet>
+<app-city-search (success) = "setCity($event)"></app-city-search> 
+<app-city-list [city]="city"></app-city-list>
