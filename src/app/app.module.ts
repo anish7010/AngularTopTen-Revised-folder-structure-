@@ -11,7 +11,9 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 //importing service
 import { GetCityService } from './services/get-city.service';
-import { AppRoutingModule } from './/app-routing.module'
+import { AppRoutingModule } from './/app-routing.module';
+import { FavoritesComponent } from './components/favorites/favorites.component';
+import { FavoriteComponent } from './components/favorites/favorite/favorite.component'
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { AppRoutingModule } from './/app-routing.module'
     CitySearchComponent,
     CityListComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    FavoritesComponent,
+    FavoriteComponent
   ],
   imports: [
     BrowserModule,

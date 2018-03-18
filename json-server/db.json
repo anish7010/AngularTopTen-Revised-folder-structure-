@@ -1,0 +1,172 @@
+{
+  "favorites": [
+    {
+      "coord": {
+        "lon": -1.98,
+        "lat": 51.5
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": -1,
+        "pressure": 1006,
+        "humidity": 68,
+        "temp_min": -1,
+        "temp_max": -1
+      },
+      "wind": {
+        "speed": 8.7,
+        "deg": 50,
+        "gust": 12.3
+      },
+      "clouds": {
+        "all": 90
+      },
+      "dt": 1521311280,
+      "sys": {
+        "type": 1,
+        "id": 5159,
+        "message": 0.0089,
+        "country": "GB",
+        "sunrise": 1521267357,
+        "sunset": 1521310625
+      },
+      "id": 2636389,
+      "name": "New Zealand",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 80.28,
+        "lat": 13.09
+      },
+      "weather": [
+        {
+          "id": 701,
+          "main": "Mist",
+          "description": "mist",
+          "icon": "50n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 28,
+        "pressure": 1011,
+        "humidity": 78,
+        "temp_min": 28,
+        "temp_max": 28
+      },
+      "visibility": 5000,
+      "wind": {
+        "speed": 2.6,
+        "deg": 110
+      },
+      "clouds": {
+        "all": 20
+      },
+      "dt": 1521311400,
+      "sys": {
+        "type": 1,
+        "id": 7834,
+        "message": 0.0037,
+        "country": "IN",
+        "sunrise": 1521247484,
+        "sunset": 1521290971
+      },
+      "id": 1264527,
+      "name": "Chennai",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 72.32,
+        "lat": 30.86
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 20.97,
+        "pressure": 1006.59,
+        "humidity": 42,
+        "temp_min": 20.97,
+        "temp_max": 20.97,
+        "sea_level": 1024.28,
+        "grnd_level": 1006.59
+      },
+      "wind": {
+        "speed": 3.21,
+        "deg": 117
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1521313592,
+      "sys": {
+        "message": 0.0027,
+        "country": "PK",
+        "sunrise": 1521249464,
+        "sunset": 1521292829
+      },
+      "id": 1167710,
+      "name": "Punjab",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -97.11,
+        "lat": 38.35
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 10,
+        "pressure": 1017,
+        "humidity": 46,
+        "temp_min": 9,
+        "temp_max": 11
+      },
+      "visibility": 16093,
+      "wind": {
+        "speed": 5.1,
+        "deg": 340,
+        "gust": 7.7
+      },
+      "clouds": {
+        "all": 1
+      },
+      "dt": 1521309360,
+      "sys": {
+        "type": 1,
+        "id": 1085,
+        "message": 0.0043,
+        "country": "US",
+        "sunrise": 1521290113,
+        "sunset": 1521333499
+      },
+      "id": 4273003,
+      "name": "Canada",
+      "cod": 200
+    }
+  ]
+}

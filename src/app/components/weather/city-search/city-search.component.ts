@@ -25,7 +25,7 @@ export class CitySearchComponent implements OnInit {
       'searchedCity': this.searchedCity
     });
     }, (error) =>{
-
+      alert("Please enter a valid city.")
     })
   }
 

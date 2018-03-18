@@ -1,8 +1,10 @@
 import { Injectable } from '@angular/core';
-import { OpenWeather} from '../configs/open-weather.config';
 import { Http, Response, RequestOptions, Headers } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
+//config files
+import { OpenWeather} from '../configs/open-weather.config';
+import { App } from '../configs/app.config';
 
 @Injectable()
 export class GetCityService {
@@ -25,4 +27,20 @@ export class GetCityService {
       return Observable.throw(error.statusText);
 }
 
+  addFav(city:any) {
+  return this.http.post(App.jsonData+"favorites", city, {headers: this.headers})
+     .map(data => data.json(),
+   (error: any)=>this.handleError(error));
+  }
+
+  getFav() {
+    return this.http.get(App.jsonData+"db").map(data => data.json(),
+    (error: any)=>this.handleError(error));
+  }
+  
+  remove(city) {
+    return this.http.delete(App.jsonData+"favorites", { headers: this.headers })
+      .map(data => data.json(),
+    (error: any)=>this.handleError(error));
+    }
 }

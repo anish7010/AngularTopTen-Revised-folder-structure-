@@ -1,1 +1,15 @@
-{{city.cod}}
+<div *ngIf="city">
+  <div class="card mx-auto" style="width: 18rem;">
+      <div class="card-header">
+        <b>{{city.name}}</b>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Temperature : {{city.main.temp}}</li>
+        <li class="list-group-item">Country : {{city.sys.country}}</li>
+        <li class="list-group-item">Conditions : {{city.weather[0].main}}</li>
+        <li class="list-group-item">
+            <button (click)="addFav(city)"  type="button" class="btn btn-primary">Add to favorites</button>
+        </li>
+      </ul>
+    </div>
+</div>

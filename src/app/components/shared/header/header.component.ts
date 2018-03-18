@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { App } from '../../../configs/app.config';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  homePage : string = App.homePage;
   constructor() { }
 
   ngOnInit() {
-  }
-
+  } 
 }
