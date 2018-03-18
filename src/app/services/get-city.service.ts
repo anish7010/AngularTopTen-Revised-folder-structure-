@@ -39,8 +39,14 @@ export class GetCityService {
   }
   
   remove(city) {
-    return this.http.delete(App.jsonData+"favorites", { headers: this.headers })
+    return this.http.delete(App.jsonData+"favorites/"+city.id, { headers: this.headers })
       .map(data => data.json(),
     (error: any)=>this.handleError(error));
     }
+
+  update(oldValue, newValue) {
+    return this.http.put(App.jsonData+"favorites/"+oldValue.id, newValue)
+    .map( data=>data.json(),
+    (error : any) => this.handleError(error));
+  }
 }

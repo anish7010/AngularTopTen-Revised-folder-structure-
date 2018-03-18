@@ -2,133 +2,136 @@
   "favorites": [
     {
       "coord": {
-        "lon": -1.98,
-        "lat": 51.5
+        "lon": 73.85,
+        "lat": 18.52
       },
       "weather": [
         {
-          "id": 600,
-          "main": "Snow",
-          "description": "light snow",
-          "icon": "13n"
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
         }
       ],
       "base": "stations",
       "main": {
-        "temp": -1,
-        "pressure": 1006,
-        "humidity": 68,
-        "temp_min": -1,
-        "temp_max": -1
+        "temp": 28.48,
+        "pressure": 948.34,
+        "humidity": 59,
+        "temp_min": 28.48,
+        "temp_max": 28.48,
+        "sea_level": 1022.1,
+        "grnd_level": 948.34
       },
       "wind": {
-        "speed": 8.7,
-        "deg": 50,
-        "gust": 12.3
+        "speed": 2.76,
+        "deg": 154.002
+      },
+      "rain": {
+        "3h": 0.78
       },
       "clouds": {
-        "all": 90
+        "all": 64
       },
-      "dt": 1521311280,
+      "dt": 1521363337,
       "sys": {
-        "type": 1,
-        "id": 5159,
-        "message": 0.0089,
-        "country": "GB",
-        "sunrise": 1521267357,
-        "sunset": 1521310625
+        "message": 0.0131,
+        "country": "IN",
+        "sunrise": 1521335420,
+        "sunset": 1521378906
       },
-      "id": 2636389,
-      "name": "New Zealand",
+      "id": 1278710,
+      "name": "Pune",
       "cod": 200
     },
     {
       "coord": {
-        "lon": 80.28,
-        "lat": 13.09
+        "lon": 77.22,
+        "lat": 28.65
       },
       "weather": [
         {
-          "id": 701,
-          "main": "Mist",
-          "description": "mist",
-          "icon": "50n"
+          "id": 721,
+          "main": "Haze",
+          "description": "haze",
+          "icon": "50d"
         }
       ],
       "base": "stations",
       "main": {
-        "temp": 28,
-        "pressure": 1011,
-        "humidity": 78,
-        "temp_min": 28,
-        "temp_max": 28
+        "temp": 31,
+        "pressure": 1013,
+        "humidity": 19,
+        "temp_min": 31,
+        "temp_max": 31
       },
       "visibility": 5000,
       "wind": {
-        "speed": 2.6,
-        "deg": 110
-      },
-      "clouds": {
-        "all": 20
-      },
-      "dt": 1521311400,
-      "sys": {
-        "type": 1,
-        "id": 7834,
-        "message": 0.0037,
-        "country": "IN",
-        "sunrise": 1521247484,
-        "sunset": 1521290971
-      },
-      "id": 1264527,
-      "name": "Chennai",
-      "cod": 200
-    },
-    {
-      "coord": {
-        "lon": 72.32,
-        "lat": 30.86
-      },
-      "weather": [
-        {
-          "id": 800,
-          "main": "Clear",
-          "description": "clear sky",
-          "icon": "01n"
-        }
-      ],
-      "base": "stations",
-      "main": {
-        "temp": 20.97,
-        "pressure": 1006.59,
-        "humidity": 42,
-        "temp_min": 20.97,
-        "temp_max": 20.97,
-        "sea_level": 1024.28,
-        "grnd_level": 1006.59
-      },
-      "wind": {
-        "speed": 3.21,
-        "deg": 117
+        "speed": 5.1,
+        "deg": 300
       },
       "clouds": {
         "all": 0
       },
-      "dt": 1521313592,
+      "dt": 1521360000,
       "sys": {
-        "message": 0.0027,
-        "country": "PK",
-        "sunrise": 1521249464,
-        "sunset": 1521292829
+        "type": 1,
+        "id": 7809,
+        "message": 0.0078,
+        "country": "IN",
+        "sunrise": 1521334640,
+        "sunset": 1521378079
       },
-      "id": 1167710,
-      "name": "Punjab",
+      "id": 1261481,
+      "name": "Delhi",
       "cod": 200
     },
     {
       "coord": {
-        "lon": -97.11,
-        "lat": 38.35
+        "lon": 77.6,
+        "lat": 12.98
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 26,
+        "pressure": 1017,
+        "humidity": 69,
+        "temp_min": 26,
+        "temp_max": 26
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 3.6,
+        "deg": 110
+      },
+      "clouds": {
+        "all": 40
+      },
+      "dt": 1521351000,
+      "sys": {
+        "type": 1,
+        "id": 7821,
+        "message": 0.0505,
+        "country": "IN",
+        "sunrise": 1521334508,
+        "sunset": 1521378017
+      },
+      "id": 1277333,
+      "name": "Bangalore",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 79.83,
+        "lat": 11.93
       },
       "weather": [
         {
@@ -140,32 +143,30 @@
       ],
       "base": "stations",
       "main": {
-        "temp": 10,
-        "pressure": 1017,
-        "humidity": 46,
-        "temp_min": 9,
-        "temp_max": 11
+        "temp": 30.68,
+        "pressure": 1020.4,
+        "humidity": 76,
+        "temp_min": 30.68,
+        "temp_max": 30.68,
+        "sea_level": 1023.15,
+        "grnd_level": 1020.4
       },
-      "visibility": 16093,
       "wind": {
-        "speed": 5.1,
-        "deg": 340,
-        "gust": 7.7
+        "speed": 5.01,
+        "deg": 103.502
       },
       "clouds": {
-        "all": 1
+        "all": 0
       },
-      "dt": 1521309360,
+      "dt": 1521363780,
       "sys": {
-        "type": 1,
-        "id": 1085,
-        "message": 0.0043,
-        "country": "US",
-        "sunrise": 1521290113,
-        "sunset": 1521333499
+        "message": 0.0022,
+        "country": "IN",
+        "sunrise": 1521333966,
+        "sunset": 1521377485
       },
-      "id": 4273003,
-      "name": "Canada",
+      "id": 3369157,
+      "name": "Puducherry",
       "cod": 200
     }
   ]
