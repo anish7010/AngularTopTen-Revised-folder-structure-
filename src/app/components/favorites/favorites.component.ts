@@ -16,7 +16,7 @@ export class FavoritesComponent implements OnInit {
     this.getCityService.getFav().subscribe((res) => {
       this.favCities = res.favorites;
     },(error) => {
-      alert("Error bruv");
+      alert("Please try again.");
     }); 
   }
 

@@ -46,48 +46,6 @@
     },
     {
       "coord": {
-        "lon": 77.22,
-        "lat": 28.65
-      },
-      "weather": [
-        {
-          "id": 721,
-          "main": "Haze",
-          "description": "haze",
-          "icon": "50d"
-        }
-      ],
-      "base": "stations",
-      "main": {
-        "temp": 31,
-        "pressure": 1013,
-        "humidity": 19,
-        "temp_min": 31,
-        "temp_max": 31
-      },
-      "visibility": 5000,
-      "wind": {
-        "speed": 5.1,
-        "deg": 300
-      },
-      "clouds": {
-        "all": 0
-      },
-      "dt": 1521360000,
-      "sys": {
-        "type": 1,
-        "id": 7809,
-        "message": 0.0078,
-        "country": "IN",
-        "sunrise": 1521334640,
-        "sunset": 1521378079
-      },
-      "id": 1261481,
-      "name": "Delhi",
-      "cod": 200
-    },
-    {
-      "coord": {
         "lon": 77.6,
         "lat": 12.98
       },
@@ -130,8 +88,132 @@
     },
     {
       "coord": {
-        "lon": 79.83,
-        "lat": 11.93
+        "lon": 74.53,
+        "lat": 32.77
+      },
+      "weather": [
+        {
+          "id": 721,
+          "main": "Haze",
+          "description": "haze",
+          "icon": "50d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 28,
+        "pressure": 1014,
+        "humidity": 39,
+        "temp_min": 28,
+        "temp_max": 28
+      },
+      "visibility": 4000,
+      "wind": {
+        "speed": 2.1,
+        "deg": 230
+      },
+      "clouds": {
+        "all": 40
+      },
+      "dt": 1521360000,
+      "sys": {
+        "type": 1,
+        "id": 7153,
+        "message": 0.002,
+        "country": "IN",
+        "sunrise": 1521335295,
+        "sunset": 1521378719
+      },
+      "id": 3369157,
+      "name": "Nawanshahr",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 75.82,
+        "lat": 26.92
+      },
+      "weather": [
+        {
+          "id": 721,
+          "main": "Haze",
+          "description": "haze",
+          "icon": "50d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 32,
+        "pressure": 1014,
+        "humidity": 11,
+        "temp_min": 32,
+        "temp_max": 32
+      },
+      "visibility": 5000,
+      "wind": {
+        "speed": 2.1
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1521361800,
+      "sys": {
+        "type": 1,
+        "id": 7814,
+        "message": 0.0031,
+        "country": "IN",
+        "sunrise": 1521334970,
+        "sunset": 1521378418
+      },
+      "id": 1269515,
+      "name": "Jaipur",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 76.76,
+        "lat": 30.72
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 29.58,
+        "pressure": 979.06,
+        "humidity": 31,
+        "temp_min": 29.58,
+        "temp_max": 29.58,
+        "sea_level": 1023.76,
+        "grnd_level": 979.06
+      },
+      "wind": {
+        "speed": 5.21,
+        "deg": 303.502
+      },
+      "clouds": {
+        "all": 24
+      },
+      "dt": 1521364835,
+      "sys": {
+        "message": 0.0029,
+        "country": "IN",
+        "sunrise": 1521334755,
+        "sunset": 1521378187
+      },
+      "id": 1274746,
+      "name": "Chandigarh",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 72.32,
+        "lat": 30.86
       },
       "weather": [
         {
@@ -143,30 +225,236 @@
       ],
       "base": "stations",
       "main": {
-        "temp": 30.68,
-        "pressure": 1020.4,
-        "humidity": 76,
-        "temp_min": 30.68,
-        "temp_max": 30.68,
-        "sea_level": 1023.15,
-        "grnd_level": 1020.4
+        "temp": 31.58,
+        "pressure": 1006.95,
+        "humidity": 42,
+        "temp_min": 31.58,
+        "temp_max": 31.58,
+        "sea_level": 1024.24,
+        "grnd_level": 1006.95
       },
       "wind": {
-        "speed": 5.01,
-        "deg": 103.502
+        "speed": 4.01,
+        "deg": 151.002
       },
       "clouds": {
         "all": 0
       },
-      "dt": 1521363780,
+      "dt": 1521365086,
       "sys": {
-        "message": 0.0022,
-        "country": "IN",
-        "sunrise": 1521333966,
-        "sunset": 1521377485
+        "message": 0.0037,
+        "country": "PK",
+        "sunrise": 1521335820,
+        "sunset": 1521379252
       },
-      "id": 3369157,
-      "name": "Puducherry",
+      "id": 1167710,
+      "name": "Punjab",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 74.95,
+        "lat": 30.21
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 29.03,
+        "pressure": 1001.6,
+        "humidity": 61,
+        "temp_min": 29.03,
+        "temp_max": 29.03,
+        "sea_level": 1024.97,
+        "grnd_level": 1001.6
+      },
+      "wind": {
+        "speed": 2.06,
+        "deg": 308.002
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1521365090,
+      "sys": {
+        "message": 0.0035,
+        "country": "IN",
+        "sunrise": 1521335188,
+        "sunset": 1521378622
+      },
+      "id": 1276070,
+      "name": "Bathinda",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 117.36,
+        "lat": -34.96
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 21.03,
+        "pressure": 1023.32,
+        "humidity": 58,
+        "temp_min": 21.03,
+        "temp_max": 21.03,
+        "sea_level": 1036.08,
+        "grnd_level": 1023.32
+      },
+      "wind": {
+        "speed": 4.91,
+        "deg": 214.502
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1521365129,
+      "sys": {
+        "message": 0.0026,
+        "country": "AU",
+        "sunrise": 1521324719,
+        "sunset": 1521368677
+      },
+      "id": 2072945,
+      "name": "Denmark",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 75.85,
+        "lat": 30.91
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 31.53,
+        "pressure": 997.71,
+        "humidity": 30,
+        "temp_min": 31.53,
+        "temp_max": 31.53,
+        "sea_level": 1024.08,
+        "grnd_level": 997.71
+      },
+      "wind": {
+        "speed": 4.06,
+        "deg": 307.502
+      },
+      "clouds": {
+        "all": 68
+      },
+      "dt": 1521365135,
+      "sys": {
+        "message": 0.002,
+        "country": "IN",
+        "sunrise": 1521334974,
+        "sunset": 1521378405
+      },
+      "id": 1264728,
+      "name": "Ludhiana",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -104.61,
+        "lat": 24.05
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 8.28,
+        "pressure": 817.59,
+        "humidity": 58,
+        "temp_min": 8.28,
+        "temp_max": 8.28,
+        "sea_level": 1025.5,
+        "grnd_level": 817.59
+      },
+      "wind": {
+        "speed": 2.21,
+        "deg": 226.002
+      },
+      "clouds": {
+        "all": 24
+      },
+      "dt": 1521365140,
+      "sys": {
+        "message": 0.0046,
+        "country": "MX",
+        "sunrise": 1521378236,
+        "sunset": 1521421739
+      },
+      "id": 4011743,
+      "name": "California",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": 36.31,
+        "lat": 33.51
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 20,
+        "pressure": 1017,
+        "humidity": 28,
+        "temp_min": 20,
+        "temp_max": 20
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 4.1,
+        "deg": 80
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1521363600,
+      "sys": {
+        "type": 1,
+        "id": 7166,
+        "message": 0.0174,
+        "country": "SY",
+        "sunrise": 1521344461,
+        "sunset": 1521387896
+      },
+      "id": 170654,
+      "name": "Damascus",
       "cod": 200
     }
   ]
